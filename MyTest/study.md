@@ -1,0 +1,3 @@
+# 自动配置
+Spring中有很多以Enable开头的注解，其作用就是借助@Import来收集并注册特定场景相关的Bean，并加载导IOC容器。
+@EnableAutoConfiguration就是借助@Import来收集所有符合自动配置条件的bean定义，并加载到IOC容器
